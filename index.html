@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vault — Encrypted data storage for your financial data</title>
+        <meta
+            name="description"
+            content="All your financial data. One vault. Use however you want. Connect accounts, parse documents, and power AI agents with a single unified API."
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Nav -->
+        <nav class="nav" id="nav">
+            <div class="nav-inner">
+                <a href="#" class="wordmark">Vault</a>
+                <a href="#hero" class="nav-cta">Create Your Vault</a>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <section class="hero" id="hero">
+            <div class="hero-glow"></div>
+            <div class="container">
+                <h1 class="hero-headline fade-in">Own your financial data.</h1>
+                <p class="hero-sub fade-in">
+                    Vault is a secure source of record for your entire financial
+                    life — transactions, investments, documents, and accounts —
+                    structured and ready for any AI agent or software you use.
+                </p>
+                <a href="#signup" class="btn btn-primary hero-cta fade-in"
+                    >Create Your Vault</a
+                >
+                <p class="trust-line fade-in">
+                    <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        aria-hidden="true"
+                    >
+                        <path
+                            d="M8 1L2 4v4c0 3.5 2.6 6.8 6 7.5 3.4-.7 6-4 6-7.5V4L8 1z"
+                            stroke="#6c5ce7"
+                            stroke-width="1.5"
+                            fill="none"
+                        />
+                        <path
+                            d="M5.5 8l2 2 3.5-3.5"
+                            stroke="#6c5ce7"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                    No credit card required. SOC 2 compliant.
+                </p>
+            </div>
+            <a href="#problem" class="scroll-hint" aria-label="Scroll down">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M6 9l6 6 6-6"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                </svg>
+            </a>
+        </section>
+
+        <!-- Problem -->
+        <section class="section problem" id="problem">
+            <div class="container">
+                <h2 class="section-headline fade-in">
+                    Your financial life is scattered across 17 logins.
+                </h2>
+                <div class="problem-grid fade-in">
+                    <p>
+                        Your bank, brokerage, crypto wallet, mortgage lender,
+                        insurance provider, HSA, 401(k), credit cards — each
+                        behind its own login, its own dashboard, its own data
+                        format. You're the integration layer, copying numbers
+                        between tabs.
+                    </p>
+                    <p>
+                        Vault changes this. One secure connection point for all
+                        your financial data, structured and ready for any AI
+                        agent or tool you choose to use — today and tomorrow.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="section how-it-works" id="how-it-works">
+            <div class="container">
+                <h2 class="section-headline fade-in">How it works</h2>
+                <div class="steps fade-in">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-icon">
+                            <svg
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M16 6C10.5 6 6 10.5 6 16s4.5 10 10 10 10-4.5 10-10S21.5 6 16 6z"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                />
+                                <path
+                                    d="M16 12v8M12 16h8"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+                        </div>
+                        <h3 class="step-title">Connect</h3>
+                        <p class="step-desc">
+                            Link your bank accounts, brokerages, and cards
+                            securely via Plaid. One-click, bank-grade security.
+                        </p>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-icon">
+                            <svg
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                                aria-hidden="true"
+                            >
+                                <rect
+                                    x="7"
+                                    y="5"
+                                    width="18"
+                                    height="22"
+                                    rx="2"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                />
+                                <path
+                                    d="M11 11h10M11 15h10M11 19h6"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+                        </div>
+                        <h3 class="step-title">Upload</h3>
+                        <p class="step-desc">
+                            Drop in tax forms, statements, or any financial
+                            document. AI parsing extracts and structures the
+                            data automatically.
+                        </p>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-icon">
+                            <svg
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M6 10h8v12H6z"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    rx="1"
+                                />
+                                <path
+                                    d="M18 10h8v12h-8z"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    rx="1"
+                                />
+                                <path
+                                    d="M14 16h4"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+                        </div>
+                        <h3 class="step-title">Use Everywhere</h3>
+                        <p class="step-desc">
+                            Access your unified financial data from any AI
+                            agent, app, or tool through our REST API and MCP
+                            protocol.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="section features" id="features">
+            <div class="container">
+                <h2 class="section-headline fade-in">Everything you need</h2>
+                <div class="feature-grid">
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M4 6h16M4 12h16M4 18h10"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+                        </div>
+                        <h3>Unified Data Model</h3>
+                        <p>
+                            All accounts, transactions, and documents normalized
+                            into one consistent schema. No more format
+                            wrangling.
+                        </p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M12 2L2 7l10 5 10-5-10-5z"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                />
+                                <path
+                                    d="M2 17l10 5 10-5"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                />
+                                <path
+                                    d="M2 12l10 5 10-5"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                />
+                            </svg>
+                        </div>
+                        <h3>AI Document Parsing</h3>
+                        <p>
+                            Upload W-2s, 1099s, bank statements, or any
+                            financial PDF. Our models extract structured data in
+                            seconds.
+                        </p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
+                        <h3>Agent-Ready API</h3>
+                        <p>
+                            REST endpoints and MCP server designed for AI
+                            agents. Your financial data is always one API call
+                            away.
+                        </p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M12 2L5 6v6c0 5.25 3 10.13 7 11.25 4-1.12 7-6 7-11.25V6l-7-4z"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                />
+                            </svg>
+                        </div>
+                        <h3>SOC 2 Security</h3>
+                        <p>
+                            End-to-end encryption, SOC 2 Type II compliance, and
+                            zero-knowledge architecture. Your data stays yours.
+                        </p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                />
+                                <path
+                                    d="M7 10l5 5 5-5"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                                <path
+                                    d="M12 15V3"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+                        </div>
+                        <h3>Flexible Export</h3>
+                        <p>
+                            Export to CSV, JSON, or connect directly. Your data
+                            isn't locked in — take it wherever you need it.
+                        </p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                aria-hidden="true"
+                            >
+                                <rect
+                                    x="3"
+                                    y="3"
+                                    width="18"
+                                    height="18"
+                                    rx="3"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                />
+                                <path
+                                    d="M9 12h6"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+                        </div>
+                        <h3>Minimal UI</h3>
+                        <p>
+                            No bloated dashboard. A clean, focused interface for
+                            managing connections and reviewing your data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section class="section pricing" id="pricing">
+            <div class="container">
+                <h2 class="section-headline fade-in">Simple pricing</h2>
+                <div class="pricing-card fade-in">
+                    <p class="pricing-label">Everything included</p>
+                    <div class="pricing-amount">
+                        <span class="pricing-dollar">$</span>
+                        <span class="pricing-value">4.99</span>
+                        <span class="pricing-period">/mo</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                                fill="none"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M3 8l4 4 6-7"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                            Unlimited connected accounts
+                        </li>
+                        <li>
+                            <svg
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                                fill="none"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M3 8l4 4 6-7"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                            AI document parsing (50/mo)
+                        </li>
+                        <li>
+                            <svg
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                                fill="none"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M3 8l4 4 6-7"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                            Full REST API &amp; MCP access
+                        </li>
+                        <li>
+                            <svg
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                                fill="none"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M3 8l4 4 6-7"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                            Real-time webhooks
+                        </li>
+                        <li>
+                            <svg
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                                fill="none"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M3 8l4 4 6-7"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                            CSV &amp; JSON export
+                        </li>
+                        <li>
+                            <svg
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                                fill="none"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M3 8l4 4 6-7"
+                                    stroke="#6c5ce7"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                            SOC 2 Type II compliant
+                        </li>
+                    </ul>
+                    <a href="#hero" class="btn btn-primary pricing-btn"
+                        >Get Started</a
+                    >
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer CTA + Footer -->
+        <section class="section footer-cta" id="signup">
+            <div class="container">
+                <h2 class="section-headline fade-in">
+                    Ready to take control of your financial data?
+                </h2>
+                <p class="footer-cta-sub fade-in">
+                    Create your vault in 30 seconds. No credit card required.
+                </p>
+                <a href="#" class="btn btn-primary hero-cta fade-in"
+                    >Create Your Vault</a
+                >
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container footer-inner">
+                <p class="footer-copy">
+                    &copy; 2026 Vault. Built by the Hiro team.
+                </p>
+                <div class="footer-links">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>
